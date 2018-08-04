@@ -1,4 +1,4 @@
-def ask_ok(prompt, retries=4, rmainder='Please try again!'):
+def ask_ok(prompt, retries=4, remainder='Please try again!'):
     while True:
         ok = input(prompt)
         if ok in ('y', 'ye', 'yes'):
